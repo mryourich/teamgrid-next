@@ -1,0 +1,22 @@
+TEAMGRID STACKBLITZ READY
+
+Wichtig beim GitHub Upload:
+Die Dateien müssen direkt im Repository-Hauptordner liegen.
+
+Richtig:
+package.json
+app/
+components/
+lib/
+public/
+
+Falsch:
+teamgrid-next-stackblitz-ready/package.json
+oder:
+teamgrid-next-demo/teamgrid-next-demo/package.json
+
+StackBlitz URL:
+https://stackblitz.com/github/DEIN-NAME/DEIN-REPO
+
+Wenn dein Projekt in einem Unterordner liegt:
+https://stackblitz.com/github/DEIN-NAME/DEIN-REPO/tree/main/UNTERORDNER
