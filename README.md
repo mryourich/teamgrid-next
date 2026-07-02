@@ -1,8 +1,25 @@
-# TeamGrid Next.js Demo
+# TeamGrid Functional Next.js Demo
 
-Lokale Testversion für TeamGrid als moderne SaaS-Plattform.
+Voll funktionale Frontend-Demo für TeamGrid.
 
-## Start
+## Funktionen
+
+- Dashboard mit echten Berechnungen aus den Daten
+- Projekte erstellen/löschen/status ändern
+- Aufgaben erstellen, Kanban-Status ändern, löschen
+- People/Personal erstellen/löschen
+- Fuhrpark erstellen/löschen
+- Material erstellen/status ändern/löschen
+- Dokumente als Einträge erfassen/löschen
+- Finanzen erstellen/löschen, Einnahmen/Ausgaben berechnen
+- Globale Suche
+- Einstellungen
+- Export als JSON
+- Import aus JSON
+- Reset auf Demo-Daten
+- Speicherung im Browser über localStorage
+
+## Lokal starten
 
 ```bash
 npm install
@@ -15,17 +32,10 @@ Dann öffnen:
 http://localhost:3000
 ```
 
-## Enthalten
+## Vercel
 
-- Command Center Dashboard
-- Projekte
-- Aufgaben / Kanban
-- People / Personal
-- Fuhrpark
-- Material
-- Dokumente
-- Finanzen
-- Einstellungen
-- Mock-Daten ohne Datenbank
+Dieses Projekt ist Vercel-ready. Einfach zu GitHub hochladen und bei Vercel deployen.
 
-Diese Demo speichert noch nichts dauerhaft. Der nächste Schritt wäre Supabase/PostgreSQL für echte Login-, Rollen- und Datenbankfunktionen.
+## Wichtig
+
+Diese Version speichert Daten im Browser des Benutzers. Für echte Teamarbeit, mehrere Benutzer, Rollen/Rechte und Dateien braucht die nächste Ausbaustufe eine Datenbank, z.B. Supabase/PostgreSQL.
